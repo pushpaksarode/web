@@ -66,12 +66,12 @@ h1{
 
 #rhshort{
     top:230px;
-    left:56%;
+    left:55.835%;
 }
 
 #rhlong{
     top:335px;
-    left:56%;
+    left:55.835%;
 }
 
 #lllong{
@@ -92,4 +92,24 @@ h1{
 #rlshort{
     top:560px;
     left:52%;
+}
+
+#lhlong:hover{
+    transform: rotate(-5deg);
+}
+
+#rhlong:hover{
+    transform: rotate(5deg);
+}
+
+#llshort:hover{
+    transform: scale(1.2);
+}
+
+#rlshort:hover{
+    transform: scale(1.2);
+}
+
+.triangle:hover{
+    transform: scale(1.1);
 }
