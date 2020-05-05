@@ -1,0 +1,52 @@
+.circle{
+    height:150px;
+    width:150px;
+    background-color: rgba(60, 80, 190, 1);
+    margin:30px;
+
+    border-radius:50%;
+}
+
+.oval{
+    height:150px;
+    width:250px;
+    background-color: rgba(200, 20, 10, 1);
+    margin:30px;
+
+    border-radius:50%;
+}
+
+.triangle{
+    height:0px; 
+    width:0px;
+    /* background-color: rgba(20,230,150,1);  */
+    margin:30px;
+
+    border-left:100px solid transparent;
+    border-right:100px solid transparent;
+    border-bottom:100px solid blue ;  
+}
+
+.other1{
+    height:0px; 
+    width:0px;
+    /* background-color: rgba(20,230,150,1);  */
+    margin:30px;
+
+    border-left:100px solid transparent;
+    border-right:100px solid transparent;
+    border-bottom:100px solid blue ;  
+    border-top:100px groove darkseagreen 
+}
+
+.other2{
+    height:0px; 
+    width:0px;
+    /* background-color: rgba(20,230,150,1);  */
+    margin:30px;
+
+    border-left:100px solid orange;
+    border-right:100px solid aqua;
+    border-bottom:100px solid deeppink ;  
+    border-top:100px solid fuchsia;
+}
