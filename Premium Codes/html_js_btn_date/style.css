@@ -1,0 +1,23 @@
+.container{
+    width:400px;
+    height:200px;
+    background-image:radial-gradient(black,gray);
+    margin:50px auto;
+    text-align: center;
+}
+
+h4{
+    color:rgb(171, 255, 15);
+}
+
+button{
+    border-radius:10px;
+    outline:none;
+    background-color: hotpink;
+    color:blue;
+    cursor: pointer;
+}
+
+button:active{
+    background-color: chartreuse;
+}

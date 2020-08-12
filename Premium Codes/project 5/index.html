@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="./script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="player1">
+            <div class="avatar">
+                <img class="avatar_image" src="avatar1.png" alt="Player 1">
+            </div>
+            <div class="player_score">
+                <input type="number" placeholder="Enter Score" name="score1" id="score1">
+                <button onclick="addScore1()" class="btn_add_score">Add Score</button>
+            </div>
+            <div class="player_score_counter">
+                <h2>Score</h2>
+                <h4 id="score_counter1">0</h4>
+            </div>
+        </div>
+        <div class="player2">
+            <div class="avatar">
+                <img class="avatar_image" src="avatar2.png" alt="Player 2">
+            </div>
+            <div class="player_score">
+                <input type="number" placeholder="Enter Score" name="score2" id="score2">
+                <button onclick="addScore2()" class="btn_add_score">Add Score</button>
+            </div>
+            <div class="player_score_counter">
+                <h2>Score</h2>
+                <h4 id="score_counter2">0</h4>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

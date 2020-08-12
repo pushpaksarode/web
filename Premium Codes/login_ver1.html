@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>
+            Login Page
+        </title>
+        <style>
+        #div1{
+            border:1px solid black;
+            background-color:lightgray;
+            width:400px;
+            height:200px;
+            
+        }
+        h1{
+            background-color:springgreen;
+            margin:0px;
+            text-align:center;
+        }
+        .datanames{
+            font-size:20px;
+            font-family:cursive;
+            margin:15px;
+        }
+        </style>
+    </head>
+    <body>
+        <form action="text.php" method="get">
+        <div id="div1">
+            <div id="div2"><h1>Sign in</h1></div>
+            <label for="user" class="datanames">Username</label><br><input type="email" name="username" id="user"style="padding:3px;width :70px;margin-left:15px;width:300px;"><br>
+            <label for="pass" class="datanames">Password</label><br><input type="password" name="password" id="pass"style="padding:3px;width :70px;margin-left:15px;width:300px;"><br>
+            <center><input type="submit" value="Login"style="padding:5px;width :70px;margin:8px;font-size:large;"></center>
+        </div>
+        </form>
+    </body>
+</html>

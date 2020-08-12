@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Contact me</title>
+    </head>
+    <body style="background-color:aquamarine; border:3px solid black;">
+        <div>
+            <center>
+                <h1 style="background-color:#deb887;">
+                 PSOfficial : Contact me
+                </h1>
+                <p style="color:red;">~ Never Say Never</p>
+            </center>
+        </div>
+        
+            <div style="margin:10px; padding:10px; border: 2px solid green;">
+                <form action="mailto:pushpak.sarode01@gmail.com" method="get" enctype="text/plain">
+                  <label for="fn">First Name : </label><input type="text" name="fname" id="fn" style="background-color:lightgoldenrodyellow;padding:2px;"><br><br>
+                  <label for="ln">Last Name : </label><input type="text" name="lname" id="ln"><br><br>
+                  <label for="dob">DOB : </label><input type="date" name="dob" id="dob"><br><br>
+                  Gender : <label for="M">Male : </label><input type="radio" name="gender" id="M">
+                           <label for="F">Female : </label><input type="radio" name="gender" id="F"><br><br>
+                  <select id="city" name="city">
+                      <option value="nashik">Nashik</option>
+                      <option value="pune">Pune</option>
+                      <option value="mumbai">Mumbai</option>
+                      <option value="nagpur">Nagpur</option>
+                      <option value="delhi">Delhi</option>
+                  </select>
+                  <br>
+                 Select Skills :
+                 <label for="c">Programming in C</label><input type="checkbox" name="skills" id="c">
+                 <label for="C++">Programming in C++</label><input type="checkbox" name="skills" id="cpp">
+                 <label for="PHP">Server site PHP</label><input type="checkbox" name="skills" id="php">
+                 <label for=".NET">Visual Basics Dot NET</label><input type="checkbox" name="skills" id=".net">
+                 <label for="SQL">Database Server Language SQL</label><input type="checkbox" name="skills" id="sql"><br><br>
+                 <input type="submit" value="Submit">&nbsp;&nbsp;&nbsp;<input type="reset" value="Reset">
+                </form>
+            </div>
+        
+    </body>
+</html>

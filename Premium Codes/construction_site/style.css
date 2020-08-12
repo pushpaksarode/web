@@ -1,0 +1,48 @@
+body{
+    /* background-image: radial-gradient(gray,black); */
+    background-image:radial-gradient(
+      circle at top right,
+      yellow,
+      #f06d06
+    );
+}
+
+.container{
+    height:350px;
+    width:800px;
+    margin:200px auto;
+    text-align: center;
+}
+
+#maintainance_logo{
+    height:200px;
+    width:200px;
+}
+
+h3{
+    font-family: sans-serif;
+}
+
+#developer{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(5, 3, 119);
+    cursor:pointer
+}
+
+#developer:hover{
+    color:darkred
+}
+
+p{
+    font-weight: 1000;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+p>a{
+    text-decoration:none;
+    color:black
+}
+
+p>a:hover{
+    color:rgb(29, 20, 20);
+}

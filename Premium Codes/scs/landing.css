@@ -1,0 +1,138 @@
+*{
+    margin:0%;
+}
+
+.list{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 30px;
+    display:inline-block;
+}
+
+a{
+    color: lightcoral;
+    text-decoration: none;
+}
+
+.navbar{
+    position:fixed;
+    width:100%;
+    height:50px;
+    background-color: midnightblue;
+    border-radius:20px;
+    margin-top:5px;
+    
+    border-top-width: 2px;
+    border-top-color:red;
+    border-top-style:solid;
+
+    border-bottom-width: 2px;
+    border-bottom-color:deeppink;
+    border-bottom-style:solid;
+    
+}
+
+.ulist{
+    padding-top:7px;
+    padding-left:0px;
+}
+
+.list{
+    margin:0px 8.0%;
+}
+
+.hero{
+    margin-top:0px;
+    width:100%;
+    height:660px;
+    background-image:url('bgcanva1.png');
+    background-size: 100% 100%;
+    background-repeat:no-repeat;
+    background-position: center;
+    padding-top:60px;
+    margin-bottom:20px;
+}
+
+#business_name{
+    font-weight: bold;
+    font-size:60px;
+    text-align:center;
+    color: lightgreen;
+    font-family: cursive;
+}
+
+.logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30px 30px;
+    opacity: 0.20;
+}
+
+.cards{
+    margin-left:125px;
+    display:block;
+    width:300x;
+    height:200px;
+}
+
+.products{
+    width:30%;
+    height:400px;
+    display:inline-block;
+    background-color: lightslategray;
+    padding:15px;
+    margin:10px 8px;
+    vertical-align: top;
+}
+
+.para{
+    font-size:20px;
+    font-weight: 800;
+    font-family:'ubuntu';
+}
+
+h2{
+    text-align:center;
+}
+
+.about_us{
+    background-color: burlywood;
+    width:1490px;
+    height:300px;
+    margin:10px;
+    border-top:8px solid deeppink;
+    border-bottom:8px solid red;
+    border-left:8px solid green;
+    border-right:8px solid blue;
+    border-radius: 15px;
+}
+
+.head{
+ font-size: 40px;
+ font-family: cursive;
+ margin-top:0px;
+}
+
+#paraabout{
+    font-size:20px;
+    font-family: 'ubuntu';
+    padding:20px;
+}
+
+.contact_icon{
+    margin-left: 430px;
+    margin-right: auto;
+    height:100px;
+    width:100px;
+}
+
+#contact_us{
+    height:200px;
+}
+
+footer{
+    background-color: honeydew;
+    text-align: center;
+    padding-bottom:10px;
+    padding-top:0px;
+}

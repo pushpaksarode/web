@@ -1,0 +1,71 @@
+.container{
+    padding:50px 50px;
+    height: 600px;
+    background-color: rgb(170, 153, 245);
+    border:2px solid black;
+    box-sizing: border-box;
+}
+
+.player1{
+    height:250px; 
+    background-image: radial-gradient(rgb(188, 197, 248),rgb(162, 243, 243),rgb(111, 235, 111));
+}
+
+.player2{
+    height:250px; 
+    background-image: radial-gradient(rgb(221, 144, 175),rgb(210, 174, 240),rgb(253, 206, 51));
+}
+
+.avatar{
+    height: 250px;
+    float:left;
+}
+
+img{
+    max-height: 100%;
+}
+
+.player_score{
+    float:left;
+}
+
+/* to remove up and down arrow for input type="number" */
+input::-webkit-inner-spin-button, 
+input::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+input,button{
+    margin:55px;
+    display:block;
+    border-radius: 15px;
+    border-style:solid;
+    border:1px solid black;
+    outline:none; /* to remove outline after border radius */
+    padding:10px;
+}
+
+button{
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(241, 220, 220);
+}
+
+button:active{
+    color: maroon;
+}
+
+.player_score_counter{
+    float:left;
+}
+
+.player_score_counter h2,.player_score_counter h4{
+    margin:55px; 
+    padding:8px;
+    text-align: center;
+}
+
+

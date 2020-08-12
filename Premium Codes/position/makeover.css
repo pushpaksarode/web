@@ -1,0 +1,29 @@
+.head{
+    margin-left:auto;
+    margin-right:auto;
+    height:40px;
+    background-image: repeating-radial-gradient(yellow,aquamarine,aqua);
+    text-align: center;
+    /* text-transform: capitalize; */
+}
+
+h1:hover{
+    transform:scale(1.1);
+}
+
+.container{
+    margin-top:10px;
+    height:640px;
+    position:relative;
+    background-color: brown;
+    margin-left: auto;
+    margin-right:auto;
+}
+
+.photo{  
+    display:inline-block;
+    height:50%;
+    width:200px;
+    position:absolute;
+    background-color: mediumaquamarine;
+}

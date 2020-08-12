@@ -1,0 +1,193 @@
+*{
+    margin:0px;
+}
+
+
+/* -------------Header------------ */
+
+.header{
+    background-color: rgb(0, 0, 0);
+    height:120px;
+    position:fixed;
+    top:0px;
+    width:100%;
+    z-index:999;
+}
+.topinfo{
+    height:25px;
+    border-bottom:1px solid white;
+}
+.phone{
+    display:inline;
+    font-size:15px;
+    position:relative;
+    left:150px;
+    top:3px;
+}
+.topinfo a{
+ color:white;
+ text-decoration: none;
+}
+.email{
+    display:inline;
+    color:white;
+    font-size:15px;
+    position:relative;
+    left:300px;
+    top:3px;
+}
+.navbar{
+    height:93px;
+    position: relative;
+}
+.logo{
+    display:inline-block;
+    position:absolute;
+    left:15px;
+    top:10px;
+    width:150px;
+    height:70px;
+    /* border:1px solid red; */
+}
+.logo img{
+    display:block;
+    width:50px;
+    margin:auto;
+}
+
+.logo img:hover{
+    transform:scale(1.1);
+    cursor:pointer;
+}
+
+.logo span:hover{
+    transition: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    cursor:pointer;
+}
+
+.logo span{
+    color:white;
+    font-size:16px;
+    font-family: cursive;
+    display:block;
+    width:150px;
+    text-align:center;
+}
+ul{
+    display:block;
+    margin:0px auto;
+    width:700px;
+    height:70px;
+    padding:10px 0px;
+    text-align: center;
+    /* border:1px solid red; */
+}
+ul li{
+    padding:10px;
+    margin:10px 10px;
+    font-size:23px;
+    display:inline-block;
+}
+ul li a{
+    color:white;
+    text-decoration: none;
+}
+
+ul li a:hover{
+    color: lightgoldenrodyellow;
+    cursor:pointer;
+}
+
+.quote{
+    display:inline-block;
+    position:absolute;
+    right:45px;
+    top:30px;
+}
+.quote button{
+    border-radius: 30px;
+    background-color: rgb(0, 0, 0);
+    padding:5px 15px;
+    font-size:16px;
+    color:white;
+    border-style:solid green;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor:pointer;
+    outline:none;
+}
+.quote button:hover{
+    background-color: gainsboro;
+    color:black;
+}
+
+
+/* --------------Hero----------------- */
+
+
+.hero{
+    background-image: url('clint-patterson-dYEuFB8KQJk-unsplash.jpg');
+    height:725px;
+    background-size: cover;
+}
+.heroquote{
+    height:180px;
+    width:300px;
+    border:3px solid white;
+    border-radius: 10px;
+    position:relative;
+    top:270px;
+    left:100px;
+    padding:50px 20px;
+}
+
+.heroquote p{
+    text-align: center;
+    padding:30px 5px;
+    color: white;
+    font-size:22px;
+    font-family:ubuntu;
+}
+.heroquote p img{
+    width:40px;
+    height:40px;
+    filter: invert(100%);
+}
+
+
+
+/*-------------Collection----------- */
+
+
+
+.collection{
+    height:580px;
+    background-color: tomato;
+    padding-top:50px;
+    position: relative;
+    /* top:120px; */
+}
+
+.card{
+    display:inline-block;
+    width:24.803%;
+    height:350px;
+    background-color: thistle;
+    padding:20px;
+    border-radius: 25%;
+    box-sizing:border-box;
+}
+
+.collection .container{
+    height:400px;
+    position:relative;
+    padding:20px 0px;
+    top:100px;
+    background-color: turquoise;
+}
+
+.cardhead{
+    font-size:40px;
+    width:fit-content;
+    margin: auto;
+    font-family: 'ubuntu';
+}
