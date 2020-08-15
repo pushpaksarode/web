@@ -1,0 +1,13 @@
+:root{
+    --bg:black;
+}
+
+.heading{
+    background-color: var(--bg);
+    color:white;
+}
+
+section{
+    background-color: var(--bg);
+    color:yellow;
+}

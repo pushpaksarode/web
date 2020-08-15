@@ -1,0 +1,42 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container-1{
+    height: 700px;
+    background-image: url('bg-1.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.container-2{
+    height: 700px;
+    background-image: url('bg-2.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.container-3{
+    height: 700px;
+    background-image: url('bg-3.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.heading{
+    color:white;
+    text-align: center;
+    font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+    position: relative;
+    top:200px;  
+}
+
+.para{
+    padding: 20px;
+    font-size: 20px;
+    font-family: monospace;
+    color: rgb(17, 0, 3);
+    background-color: rgba(209, 209, 209);
+}

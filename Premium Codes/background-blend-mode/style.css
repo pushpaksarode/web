@@ -1,0 +1,25 @@
+.container{
+    height:500px;
+    width:500px;
+    margin:100px auto;
+    background-image:linear-gradient(135deg,orange 5%,deeppink),url('./astro.jpg');
+    background-blend-mode:color;
+    background-size:contain;
+}
+
+.box-1{
+    width:200px;
+    height:200px;
+    position: absolute;
+    top:250px;
+    left:50px;
+}
+
+.box-2{
+    width:200px;
+    height:200px;
+    position: absolute;
+    background-image:linear-gradient(135deg,orange 5%,deeppink);
+    top:250px;
+    left:280px;
+}

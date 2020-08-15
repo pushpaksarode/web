@@ -1,0 +1,28 @@
+.container{
+    background-repeat: no-repeat;
+    background-image:url('architectural-design-architecture-building-443383.jpg');
+    background-size: cover;
+    /* position:relative; */
+    height:1400px;
+}
+
+.childs{
+    height:100px;
+    width: 1500px;
+    position:fixed;
+    padding:15px;
+    background-color: aliceblue;
+}
+
+.heading{
+    font-size:23px;
+    text-align:center;
+}
+
+#c1{
+    top:150px;
+}
+
+#c2{
+    top:450px;
+}

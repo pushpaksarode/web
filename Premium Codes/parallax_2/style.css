@@ -1,0 +1,33 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    height:1179px;
+    background: url('./bg-5.jpg') top no-repeat,url('./bg-4.jpg') bottom no-repeat;
+    background-size: 100vw;
+    background-attachment:fixed;
+}
+
+h1{
+    padding: 50px;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.child-1{
+    height: 150px;
+    background-color: aquamarine;
+    position: absolute;
+    width: 99vw;
+    text-align: center;
+}
+
+.child-2{
+    height: 200px;
+    background-color: aquamarine;
+    position: absolute;
+    top:400px;
+    width: 99vw;
+    text-align: center;
+}

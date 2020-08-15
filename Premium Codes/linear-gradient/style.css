@@ -1,0 +1,6 @@
+.container{
+    height:400px;
+    width:700px;
+    margin:20px auto;
+    background:linear-gradient(0deg ,red,skyblue); /* 0deg = to top , then while increment in moves clockwise
+}
